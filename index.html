@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bateria Virtual</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="bg-gradient-to-r from-purple-800 to-blue-900 min-h-screen">
+    <div id="app">
+      <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-center text-white mb-8">Bateria Virtual</h1>
+        
+        <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
+          <div class="drum-pad" data-key="65" data-sound="clap">
+            <kbd>A</kbd>
+            <span>Clap</span>
+          </div>
+          <div class="drum-pad" data-key="83" data-sound="hihat">
+            <kbd>S</kbd>
+            <span>Hi-Hat</span>
+          </div>
+          <div class="drum-pad" data-key="68" data-sound="kick">
+            <kbd>D</kbd>
+            <span>Kick</span>
+          </div>
+          <div class="drum-pad" data-key="70" data-sound="openhat">
+            <kbd>F</kbd>
+            <span>Open Hat</span>
+          </div>
+          <div class="drum-pad" data-key="71" data-sound="boom">
+            <kbd>G</kbd>
+            <span>Boom</span>
+          </div>
+          <div class="drum-pad" data-key="72" data-sound="ride">
+            <kbd>H</kbd>
+            <span>Ride</span>
+          </div>
+          <div class="drum-pad" data-key="74" data-sound="snare">
+            <kbd>J</kbd>
+            <span>Snare</span>
+          </div>
+          <div class="drum-pad" data-key="75" data-sound="tom">
+            <kbd>K</kbd>
+            <span>Tom</span>
+          </div>
+          <div class="drum-pad" data-key="76" data-sound="tink">
+            <kbd>L</kbd>
+            <span>Tink</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key="65" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/clap.wav"></audio>
+    <audio data-key="83" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/hihat.wav"></audio>
+    <audio data-key="68" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/kick.wav"></audio>
+    <audio data-key="70" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/openhat.wav"></audio>
+    <audio data-key="71" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/boom.wav"></audio>
+    <audio data-key="72" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/ride.wav"></audio>
+    <audio data-key="74" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/snare.wav"></audio>
+    <audio data-key="75" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/tom.wav"></audio>
+    <audio data-key="76" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/tink.wav"></audio>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
